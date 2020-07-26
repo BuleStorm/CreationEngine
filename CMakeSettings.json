@@ -1,0 +1,42 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "VCPKG_APPLOCAL_DEPS",
+          "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "CMAKE_MODULE_PATH",
+          "value": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/CMake",
+          "type": "PATH"
+        },
+        {
+          "name": "_VCPKG_CL",
+          "value": "E:/Data/vcpkg/vcpkg.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "VCPKG_TARGET_TRIPLET",
+          "value": "x64-windows",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_GNUtoMS",
+          "value": "True",
+          "type": "BOOL"
+        }
+      ]
+    }
+  ]
+}
