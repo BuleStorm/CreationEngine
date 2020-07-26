@@ -5,16 +5,16 @@ C++ OpenGL模仿我的世界，内容相对完善，随机地图，支持双人�
 https://b23.tv/av98281860/p1
 
 # 效果图片
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/1.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/2.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/3.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/4.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/5.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/6.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/7.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/8.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/9.PNG)
-![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/10.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/1.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/2.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/3.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/4.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/5.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/6.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/7.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/8.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/9.PNG)
+![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/10.PNG)
 
 # 编译环境
 VS 2019
