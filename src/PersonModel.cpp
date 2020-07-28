@@ -62,7 +62,7 @@ void PersonModel::init()
 	char texturePath[50] = "./Person/";
 	strcat_s(texturePath, textureStr);
 	//img = cv::imread(texturePath);
-	img.load_bmp("1.bmp");
+	img.load(texturePath);
 
 	bindTexture(headVAO, headVBO, head, headTexture, 0);
 	bindTexture(bodyVAO, bodyVBO, body, bodyTexture, 1);

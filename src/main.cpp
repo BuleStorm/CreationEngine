@@ -179,10 +179,8 @@ void drawMain()
 
 int main()
 {
-	cout << "b";
 	initAll();
 	loadMap();
-	cout << "a";
 	control->eyeInit(createWorld->getAltitude(WORLD_WIDTH / 2, WORLD_WIDTH / 2, WORLD_HEIGHT - 1));
 
 	while (!glfwWindowShouldClose(glWindow->getWindow()))

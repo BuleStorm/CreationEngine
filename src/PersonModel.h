@@ -9,7 +9,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-
+#define cimg_use_png 1
 #include <CImg/CImg.h>
 using namespace cimg_library;
 // ·½¿éÁùÃæ
