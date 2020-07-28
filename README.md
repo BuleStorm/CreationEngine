@@ -6,6 +6,8 @@ https://b23.tv/av98281860/p1
 
 # 效果图片
 
+![Image](https://blog.csdn.net/qq_40300617/article/details/105027030)
+
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/1.PNG)
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/2.PNG)
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/3.PNG)
