@@ -18,8 +18,7 @@ https://b23.tv/av98281860/p1
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/10.PNG)
 
 # 编译环境
-#VS 2019
-any Cxxcomplie with cmake
+any Cxxcomplie with cmake on windows7+
 Need: libpng
       glfw3
 	  freetype
@@ -50,6 +49,7 @@ CSDN：https://blog.csdn.net/qq_40300617/article/details/105027030
 
 GitHub：https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft
 
-#核心开发者
+# 核心开发者
 BuleStorm 
+
 wzy2006
