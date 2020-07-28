@@ -5,6 +5,7 @@ C++ OpenGL模仿我的世界，内容相对完善，随机地图，支持双人�
 https://b23.tv/av98281860/p1
 
 # 效果图片
+
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/1.PNG)
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/2.PNG)
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/3.PNG)
@@ -17,7 +18,11 @@ https://b23.tv/av98281860/p1
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/screenshots/10.PNG)
 
 # 编译环境
-VS 2019
+#VS 2019
+any Cxxcomplie with cmake
+Need: libpng
+      glfw3
+	  freetype
 
 # 游戏操作
 移动：WASD
@@ -44,3 +49,7 @@ B站：https://b23.tv/av98281860/p1
 CSDN：https://blog.csdn.net/qq_40300617/article/details/105027030
 
 GitHub：https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft
+
+#核心开发者
+BuleStorm 
+wzy2006
