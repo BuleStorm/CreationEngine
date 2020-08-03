@@ -43,9 +43,9 @@ public:
 	// 有关人物所在海拔的处理函数(跳跃,下降)
 	void eyeHeight();
 	// 放置
-	void mouseLeft();
+	void placeBlock();
 	// 消除
-	void mouseRight();
+	void destroyBlock();
 
 	// 身体角度
 	float bodyRadians = -270;

@@ -164,7 +164,7 @@ void drawBeginText(const char* text)
 	glfwPollEvents();
 }
 
-void drawMain()
+inline void drawMain()
 {
 	painter->drawMap(control->eyePos);
 
@@ -195,7 +195,7 @@ int main()
 	return 0;
 }
 
-void drawBegin()
+inline void drawBegin()
 {
 	fpsStart = clock();
 	float nowTime = glfwGetTime();
@@ -208,7 +208,7 @@ void drawBegin()
 	control->keyPress();
 }
 
-void drawEnd()
+inline void drawEnd()
 {
 	glDisable(GL_CULL_FACE);
 	worldModel->drawSkybox();

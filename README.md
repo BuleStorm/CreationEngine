@@ -19,6 +19,7 @@ https://b23.tv/av98281860/p1
 
 # 编译环境
 any Cxxcomplie with cmake on windows7+
+
 Need: libpng
       glfw3
 	  freetype

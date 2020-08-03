@@ -3,7 +3,7 @@
 #include "CommTCP.h"
 #include "EliminateAnima.h"
 
-constexpr float moveSpeed = 4;
+constexpr float moveSpeed = 6;
 constexpr float placeSpeed = 0.5;
 
 static CommTCP* commTCP = CommTCP::getInstantiate();
@@ -85,10 +85,10 @@ void mousePress(GLFWwindow* window, int button, int action, int mods)
 			if (!control->isCursorDisabled)
 				glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
-			control->mouseLeft();
+			control->destroyBlock();
 			break;
 		case GLFW_MOUSE_BUTTON_RIGHT:
-			control->mouseRight();
+			control->placeBlock();
 			break;
 		default:
 			return;
@@ -97,7 +97,7 @@ void mousePress(GLFWwindow* window, int button, int action, int mods)
 	return;
 }
 
-void Control::mouseLeft()
+void Control::placeBlock()
 {
 	placeAnimation = true;
 
@@ -132,7 +132,7 @@ void Control::mouseLeft()
 	}
 }
 
-void Control::mouseRight()
+void Control::destroyBlock()
 {
 	placeAnimation = true;
 

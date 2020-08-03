@@ -2,3 +2,5 @@
 out/
 *.bak
 *.ninja
+*.cmake
+CMakeFiles/

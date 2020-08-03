@@ -11,32 +11,32 @@ Painter* Painter::getInstance()
 	return &painter;
 }
 
-void Painter::drawMap(glm::vec3 vec)
+void Painter::drawMap(glm::vec3 cameraPos)
 {
 	clearAll();
 
 	// йср╟
-	int begin_x = vec.x - VISION_WIDTH;
+	int begin_x = cameraPos.x - VISION_WIDTH;
 	if (begin_x < 0)
 		begin_x = 0;
 
-	int end_x = vec.x + VISION_WIDTH;
+	int end_x = cameraPos.x + VISION_WIDTH;
 	if (end_x > createWorld->mapData.size())
 		end_x = createWorld->mapData.size();
 
-	int begin_y = vec.y - VISION_HEIGHT;
+	int begin_y = cameraPos.y - VISION_HEIGHT;
 	if (begin_y < 0)
 		begin_y = 0;
 
-	int end_y = vec.y + VISION_HEIGHT;
+	int end_y = cameraPos.y + VISION_HEIGHT;
 	if (end_y > createWorld->mapData[0].size())
 		end_y = createWorld->mapData[0].size();
 
-	int begin_z = vec.z - VISION_WIDTH;
+	int begin_z = cameraPos.z - VISION_WIDTH;
 	if (begin_z < 0)
 		begin_z = 0;
 
-	int end_z = vec.z + VISION_WIDTH;
+	int end_z = cameraPos.z + VISION_WIDTH;
 	if (end_z > createWorld->mapData[0][0].size())
 		end_z = createWorld->mapData[0][0].size();
 

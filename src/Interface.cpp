@@ -89,7 +89,6 @@ void Interface::initFont()
     shaderF.use();
     glm::mat4 projection = glm::ortho(0.0f, static_cast<GLfloat>(Width), 0.0f, static_cast<GLfloat>(Height));
     glUniformMatrix4fv(glGetUniformLocation(shaderF.ID, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
-    /*
     FT_Library ft;
     if (FT_Init_FreeType(&ft))
         std::cout << "ERROR::FREETYPE: Could not init FreeType Library" << std::endl;
@@ -98,7 +97,7 @@ void Interface::initFont()
     if (FT_New_Face(ft, "Other/arial.ttf", 0, &face))
         std::cout << "ERROR::FREETYPE: Failed to load font" << std::endl;
 
-    //FT_Set_Pixel_Sizes(face, 0, 48);
+    FT_Set_Char_Size(face, 16 * 64, 16 * 64, 96, 96);
     glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 
     for (GLubyte c = 0; c < 128; c++)
@@ -125,7 +124,7 @@ void Interface::initFont()
 
     FT_Done_Face(face);
     FT_Done_FreeType(ft);
-    */
+
     glGenVertexArrays(1, &VAO_F);
     glGenBuffers(1, &VBO_F);
     glBindVertexArray(VAO_F);
