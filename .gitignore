@@ -1,0 +1,8 @@
+.vs/
+.vscode/
+out/
+*.bak
+*.ninja
+*.cmake
+CMakeFiles/
+build/
