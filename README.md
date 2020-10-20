@@ -12,7 +12,12 @@ Attention: need opencv glfw3 freetype with "Find---.cmake"
 Tips: You can use vcpkg to install these packages with cmake for visual studio.
 
 ```shell
+windows
 vcpkg install freetype:x64-windows glfw3:x64-windows opencv:x64-windows sqlite3:x64-windows libuv:x64-windows
+```
+
+```shell
+linux
 ```
 
 (May be you need to replace 'x64' to 'x32')
